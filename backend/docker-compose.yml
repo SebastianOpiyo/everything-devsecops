@@ -14,4 +14,8 @@ mongo:
     volumes: 
         - ./data:/data/db
     ports: 
-        - "27017:27017"
+        - "27018:27017" 
+
+    # I had to change the port from 27017:27017 to 27018:27017 for it to work
+    # Seems to be an issue that affects so many devs when starting out with docker
+    # What happens is that the port that docker container is being exposed to is already in use.
