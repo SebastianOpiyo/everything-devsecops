@@ -33,4 +33,8 @@ A node and express docker template with Mongo (full-stack)
 - A simple way to learn docker usage with a simple full-stack app.
 
 * LINKS:
+ > Introduction to using Docker
  - https://www.pluralsight.com/guides/create-docker-images-docker-hub
+ 
+ > Build Your Docker Images Automatically When You Push on GitHub
+ - https://medium.com/better-programming/build-your-docker-images-automatically-when-you-push-on-github-18e80ece76af
