@@ -17,13 +17,13 @@ Docker-Tuts
 A node and express docker template with Mongo (full-stack)
 
 * APPROACH USED
-	> First
+	1. First
 		- Create a backend on its own 
 		- A backend container will have its own static assets
-	> Second 
+	2. Second 
 		- Create a frontend on its own
 		- A frontend container will have its own static assets
-	> Third
+	3. Third
 		- A full-stack approach.
 		- The dynamic pieces i.e the data/db will be hosted in a volume.
 
@@ -31,3 +31,6 @@ A node and express docker template with Mongo (full-stack)
  > Is a tool that enables you manage multiple containers and set your entire backend with a single file.
 
 - A simple way to learn docker usage with a simple full-stack app.
+
+* LINKS:
+ - https://www.pluralsight.com/guides/create-docker-images-docker-hub
