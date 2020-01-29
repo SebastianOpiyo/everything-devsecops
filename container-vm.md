@@ -134,6 +134,7 @@ ORCHESTRATION
 TERMINOLOGIES
 1. Image
 - Is an executable package that includes everything needed to run an app i.e, the code, runtime, libraries, environment variables, and config files
+- Simply we can say it is a container blueprint.
 
 2. Container 
 - It is a runtime instance of an image- what the image becomes in memory when executes i.e an image with a state or user process.
